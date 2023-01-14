@@ -118,7 +118,57 @@ It's important to note that the use of !important should be used sparingly and w
 It's also important to know that !important does not affect the cascading order of the CSS, but it only affects the cascading order between the selectors with the same specificity, the rule with the !important will always be applied.
 
 It's highly recommended to avoid using !important in general.
- 
+___
+
+> what are css selector and its rules?
+
+ A CSS selector is a pattern used to select the HTML elements to which a set of CSS styles will be applied. There are several types of selectors in CSS, each with its own set of rules.
+
+Here are some examples of common CSS selectors and their rules:
+
+ - **Element Selector:** This selects elements based on their HTML tag name. For example, p will select all <p> elements.
+```css 
+p {
+  /* styles here */
+}
+```
+- **Class Selector:** This selects elements based on the value of their class attribute. For example, .myclass will select all elements with the class myclass.
+ ```css
+ .myclass {
+  /* styles here */
+}
+ ```
+ - **Id Selector:** This selects elements based on the value of their id attribute. For example, #myid will select the element with the id myid.
+```css
+ #myid {
+  /* styles here */
+}
+ ```
+ - **Attribute Selector:** This selects elements based on the value of their attributes. For example, [href="https://example.com"] will select all elements that have an href attribute with the value https://example.com.
+ ```css
+ a[href="https://example.com"] {
+  /* styles here */
+}
+ ```
+ - **Pseudo-class Selector:** This selects elements based on their state or position. For example, :hover will select an element when the user hovers over it.
+```css
+ a:hover {
+  /* styles here */
+}
+```
+ - **Pseudo-element Selector:** This selects a specific part of an element. For example, ::before will select the content before the element.
+```css
+ p::before {
+  /* styles here */
+}
+```
+ It's also possible to chain selectors together to increase the specificity of a rule and make it more specific. For example, the following rule will select the <p> elements that are inside a <div> element with the class container.
+ ```css
+ div.container p {
+  /* styles here */
+}
+```
+ It's also possible to group selectors together, this way, the same styles can be applied to multiple selectors at once.
  
 ___
 
