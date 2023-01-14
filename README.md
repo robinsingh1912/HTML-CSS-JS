@@ -1,8 +1,9 @@
 # HTML-CSS-JS
 
+___
 what is doctype?
--
-
+- doctype 
+___
 what do you mean by request life cycle ?
 - The request life cycle, also known as the request-response cycle, refers to the process that occurs between the time a client makes a request to a server and the time the server sends back a response. It typically includes the following steps:
 
@@ -22,9 +23,7 @@ This process usually happens in milliseconds, and the client and server can hand
 
 It's important to note that the request life cycle is not limited to web application but also applies to other types of applications that involve client-server communication.
 
-
-
-
+___
 
 what are symentic elements?
 - Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
@@ -32,6 +31,7 @@ what are symentic elements?
 > The semantic elements added in HTML5 are:
  `<article>` , `<aside>` , `<footer>`, `<header>`, `<nav>`, `<main>`, `<section>`
 
+___
 
 what is the output of code ?
 ```
@@ -47,6 +47,7 @@ while (a) {
 ```
 - The code will output "Hello World" indefinitely, as the while loop will continue to run until the value of `a` is set to false. However, the value of `a` will not be set to false until 2000 milliseconds (2 seconds) have passed due to the setTimeout function, so the loop will continue to run and print "Hello World" indefinitely.
 
+___
 
 what is the output of code :
 ```
@@ -58,3 +59,6 @@ what is the output of code :
 });
 ```
 - The forEach method is used to iterate over each element of the array and call the provided function for each element. The function passed to forEach method has a parameter "item" which is the current element of the array. In this case, it will iterate over the array [1,2,3,4,5] and calls the function for each element. At each iteration, the current element is printed and then it checks if the current element is 2 and if it is true, it returns. But the `return` statement only exit the function, it doesn't stop the iteration. So it will print all the element of the array including 2.
+
+___
+
