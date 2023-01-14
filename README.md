@@ -5,6 +5,7 @@ ___
 - doctype 
 ___
 > what do you mean by request life cycle ?
+
 The request life cycle, also known as the request-response cycle, refers to the process that occurs between the time a client makes a request to a server and the time the server sends back a response. It typically includes the following steps:
 
  - **DNS Lookup:** The client's computer looks up the IP address of the server using the domain name of the website.
