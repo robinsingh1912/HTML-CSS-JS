@@ -42,10 +42,20 @@ Reusability:** Semantic markup allows for easy reusability of code. By providing
 
 Overall, semantic markup is an important technique for building accessible, maintainable, and search engine friendly web pages.
 
+___
+how does browser understand javascirpt ?
+- When a browser loads a web page, it begins by parsing the HTML and creating a Document Object Model (DOM), which is a tree-like representation of the HTML elements and their relationships. Once the HTML has been parsed, the browser will then move on to parsing any JavaScript code that is present on the page.
 
+The browser has a built-in JavaScript engine that is responsible for understanding and executing the JavaScript code. The most common JavaScript engines are V8 (used by Chrome and Edge), SpiderMonkey (used by Firefox), and JavaScriptCore (used by Safari).
 
+When the JavaScript engine encounters a script tag, it will begin parsing the code and converting it into a format that the engine can understand. This process is called lexing and parsing. Once the code has been parsed, it will be executed by the engine.
 
+The JavaScript engine uses a technique called just-in-time (JIT) compilation to speed up the execution of JavaScript code. The JIT compiler will analyze the code as it runs and optimize it for faster execution.
 
+The JavaScript engine also provides a set of built-in objects and functions, such as the Math object and the console.log() function, that can be used by the JavaScript code. Additionally, the engine provides an interface to the DOM, which allows JavaScript code to interact with and manipulate the elements on the page.
+
+Overall, the browser's JavaScript engine plays a crucial role in interpreting and executing JavaScript code, allowing web pages to be dynamic and interactive.
+  
 ___
 
 what is the output of code ?
