@@ -81,6 +81,47 @@ Also, It's important to consider the user's network conditions, and device capab
   
 ___
 
+> what is css specificity?
+ 
+CSS specificity is a concept that determines which CSS styles will be applied to an HTML element. When multiple CSS styles are applied to the same element, the browser uses specificity to determine which styles should take precedence.
+
+CSS specificity is calculated based on the combination of selectors used in the CSS rule. The more specific the selector is, the higher the specificity of the rule.
+
+There are several types of selectors:
+
+ - **Inline styles:** These are styles that are applied directly to an HTML element using the style attribute. Inline styles have the highest specificity.
+
+ - **ID selectors:** These are styles that are applied to an HTML element based on its ID. ID selectors have a higher specificity than class selectors.
+
+ - **Class selectors, attribute selectors, and pseudo-class selectors:** These are styles that are applied to an HTML element based on its class, attribute, or pseudo-class. They have a lower specificity than ID selectors but higher than element selectors.
+
+ - **Element selectors:** These are styles that are applied to an HTML element based on its tag name. Element selectors have the lowest specificity.
+
+When multiple styles are applied to the same element, the browser will apply the style with the highest specificity. If the specificity of two styles is the same, the style that appears later in the CSS will take precedence.
+
+It's important to keep in mind that specificity is not always a straightforward concept, and it can be hard to predict which style will be applied to an element. Therefore, it's important to use clear and consistent naming conventions for CSS classes, and to keep the CSS as organized as possible.
+
+ The !important declaration is used in CSS to make a style rule have higher specificity, and therefore take precedence over any other styles that may be applied to the same element.
+
+You can use !important by adding it at the end of a CSS property value, like this:
+ ```
+ /* Example of using !important */
+p {
+  color: blue !important;
+}
+
+ ```
+ In the above example, the text color for all <p> elements will be blue, even if another style rule is used to set the text color to a different value.
+
+It's important to note that the use of !important should be used sparingly and with caution, because it can make the CSS harder to maintain, and can cause unexpected behavior. The best practice is to use it only in cases where it's truly needed, and to make sure the specificity of selectors is used correctly.
+
+It's also important to know that !important does not affect the cascading order of the CSS, but it only affects the cascading order between the selectors with the same specificity, the rule with the !important will always be applied.
+
+It's highly recommended to avoid using !important in general.
+ 
+ 
+___
+
 > what is the output of code ?
 ```
 let a = true;
