@@ -89,13 +89,13 @@ CSS specificity is calculated based on the combination of selectors used in the 
 
 There are several types of selectors:
 
- - **Inline styles:** These are styles that are applied directly to an HTML element using the style attribute. Inline styles have the highest specificity.
+- **Inline styles:** These are styles that are applied directly to an HTML element using the style attribute. Inline styles have the highest specificity.
 
- - **ID selectors:** These are styles that are applied to an HTML element based on its ID. ID selectors have a higher specificity than class selectors.
+- **ID selectors:** These are styles that are applied to an HTML element based on its ID. ID selectors have a higher specificity than class selectors.
 
- - **Class selectors, attribute selectors, and pseudo-class selectors:** These are styles that are applied to an HTML element based on its class, attribute, or pseudo-class. They have a lower specificity than ID selectors but higher than element selectors.
+- **Class selectors, attribute selectors, and pseudo-class selectors:** These are styles that are applied to an HTML element based on its class, attribute, or pseudo-class. They have a lower specificity than ID selectors but higher than element selectors.
 
- - **Element selectors:** These are styles that are applied to an HTML element based on its tag name. Element selectors have the lowest specificity.
+- **Element selectors:** These are styles that are applied to an HTML element based on its tag name. Element selectors have the lowest specificity.
 
 When multiple styles are applied to the same element, the browser will apply the style with the highest specificity. If the specificity of two styles is the same, the style that appears later in the CSS will take precedence.
 
@@ -144,18 +144,21 @@ p {
   /* styles here */
 }
  ```
+ 
  - **Attribute Selector:** This selects elements based on the value of their attributes. For example, [href="https://example.com"] will select all elements that have an href attribute with the value https://example.com.
  ```css
  a[href="https://example.com"] {
   /* styles here */
 }
  ```
+ 
  - **Pseudo-class Selector:** This selects elements based on their state or position. For example, :hover will select an element when the user hovers over it.
 ```css
  a:hover {
   /* styles here */
 }
 ```
+ 
  - **Pseudo-element Selector:** This selects a specific part of an element. For example, ::before will select the content before the element.
 ```css
  p::before {
@@ -199,8 +202,22 @@ Here are some examples of combining selectors:
   /* styles here */
 }
 ```
+ In this example, all <p> elements that are after a <h1> element in the same parent element will be selected, regardless of the number of elements between them.
 
+```html
+ <div>
+    <h1>Title</h1>
+    <div>
+        <p>This is a paragraph </p>
+        <p>This is another paragraph </p>
+    </div>
+    <p>This is another paragraph </p>
+    <p>This is one more paragraph </p>
+</div>
+```
+ In this example, the first and second <p> elements will be selected because they are after the <h1> element, but not the last one.
 
+It's important to note that the General Sibling Selector is less specific than the Child Selector (>) and Adjacent Sibling Selector (+), which means that it has lower precedence over other selectors.
 
 
  
