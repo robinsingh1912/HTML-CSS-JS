@@ -104,7 +104,7 @@ It's important to keep in mind that specificity is not always a straightforward 
  The !important declaration is used in CSS to make a style rule have higher specificity, and therefore take precedence over any other styles that may be applied to the same element.
 
 You can use !important by adding it at the end of a CSS property value, like this:
- ```
+ ```css
  /* Example of using !important */
 p {
   color: blue !important;
@@ -123,7 +123,7 @@ It's highly recommended to avoid using !important in general.
 ___
 
 > what is the output of code ?
-```
+```js
 let a = true;
 
 setTimeout(() => {
@@ -139,7 +139,7 @@ while (a) {
 ___
 
 > what is the output of code :
-```
+```js
 [1, 2, 3, 4, 5].forEach((item) => {
   console.log(item);
   if (item === 2) {
