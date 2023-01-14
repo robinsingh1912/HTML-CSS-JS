@@ -25,11 +25,26 @@ It's important to note that the request life cycle is not limited to web applica
 
 ___
 
-what are symentic elements?
-- Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
+what are symentic elements? and how they are useful?
+- Semantic markup is the practice of using HTML tags in a way that describes the meaning of the content, rather than its presentation. This is done by using appropriate HTML tags such as <header>, <nav>, <article>, <section>, <aside> and <footer> to indicate the different types of content on a web page, rather than using tags such as <div> and <span> that do not indicate the meaning of the content.
 
-> The semantic elements added in HTML5 are:
- `<article>` , `<aside>` , `<footer>`, `<header>`, `<nav>`, `<main>`, `<section>`
+Here are some ways semantic markup can be useful:
+
+ **Accessibility:** Semantic markup makes it easier for assistive technologies, such as screen readers, to understand and navigate a web page. Assistive technologies rely on the HTML tags to understand the structure and meaning of the content, so using appropriate tags can greatly improve accessibility for users with disabilities.
+
+ **Search Engine Optimization (SEO):** Search engines use the HTML tags to understand the content and context of a web page. By using semantic markup, it can help search engines to better understand the content on the page and give it more context, which can improve the page's ranking in search engine results.
+
+**Maintainability:** Semantic markup makes it easier for developers to understand and maintain a web page. By using clear and meaningful tags, it's easier to identify the purpose of different sections of the page, and it's also easier to make changes to the page without breaking the layout.
+**
+Reusability:** Semantic markup allows for easy reusability of code. By providing clear and meaningful labels to the different sections of a web page, it's easy to copy and paste sections of code to another page or to a different website.
+
+**Better CSS styling:** Semantic tags give more meaning to the HTML elements, making it easier to style them with CSS. With semantic tags, you can target specific sections of the page, rather than targeting individual elements with CSS selectors.
+
+Overall, semantic markup is an important technique for building accessible, maintainable, and search engine friendly web pages.
+
+
+
+
 
 ___
 
