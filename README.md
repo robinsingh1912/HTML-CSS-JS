@@ -127,81 +127,99 @@ ___
 Here are some examples of common CSS selectors and their rules:
 
  - **Element Selector:** This selects elements based on their HTML tag name. For example, p will select all <p> elements.
+ 
 ```css 
 p {
   /* styles here */
 }
 ```
 - **Class Selector:** This selects elements based on the value of their class attribute. For example, .myclass will select all elements with the class myclass.
+ 
  ```css
  .myclass {
   /* styles here */
 }
  ```
  - **Id Selector:** This selects elements based on the value of their id attribute. For example, #myid will select the element with the id myid.
+ 
 ```css
  #myid {
   /* styles here */
 }
  ```
  
- - **Attribute Selector:** This selects elements based on the value of their attributes. For example, [href="https://example.com"] will select all elements that have an href attribute with the value https://example.com.
+- **Attribute Selector:** This selects elements based on the value of their attributes. For example, [href="https://example.com"] will select all elements that have an href attribute with the value https://example.com.
+ 
  ```css
  a[href="https://example.com"] {
   /* styles here */
 }
  ```
  
- - **Pseudo-class Selector:** This selects elements based on their state or position. For example, :hover will select an element when the user hovers over it.
+- **Pseudo-class Selector:** This selects elements based on their state or position. For example, :hover will select an element when the user hovers over it.
+ 
 ```css
  a:hover {
   /* styles here */
 }
 ```
  
- - **Pseudo-element Selector:** This selects a specific part of an element. For example, ::before will select the content before the element.
+- **Pseudo-element Selector:** This selects a specific part of an element. For example, ::before will select the content before the element.
+ 
 ```css
  p::before {
   /* styles here */
 }
 ```
+ 
  It's also possible to chain selectors together to increase the specificity of a rule and make it more specific. For example, the following rule will select the <p> elements that are inside a <div> element with the class container.
+ 
  ```css
  div.container p {
   /* styles here */
 }
 ```
+ 
  It's also possible to group selectors together, this way, the same styles can be applied to multiple selectors at once.
  
  > check this game https://frontend30.com/css-selectors-cheatsheet/
  
- CSS allows you to combine selectors to target specific elements on a web page. This can be useful for creating more specific styles, or for applying styles to multiple elements at once.
+CSS allows you to combine selectors to target specific elements on a web page. This can be useful for creating more specific styles, or for applying styles to multiple elements at once.
 
 Here are some examples of combining selectors:
+ 
  - **Descendant Selector:** This is used to select elements that are descendants of a specific element. For example, the following CSS will select all <span> elements that are inside a <p> element:
+ 
  ```css
  p span {
   /* styles here */
 }
 ```
+ 
  - **Child Selector:** This is used to select elements that are direct children of a specific element. For example, the following CSS will select all <li> elements that are direct children of a <ul> element:
+ 
  ```css
  ul > li {
   /* styles here */
 }
 ```
+ 
  - **Adjacent Sibling Selector:** This is used to select elements that are directly after a specific element. For example, the following CSS will select all <p> elements that are directly after a <h1> element:
+ 
  ```css
  h1 + p {
   /* styles here */
 }
 ```
+ 
  - **General Sibling Selector:** This is used to select elements that are after a specific element (not necessarily directly). For example, the following CSS will select all <p> elements that are after a <h1> element:
+ 
 ```css
  h1 ~ p {
   /* styles here */
 }
 ```
+ 
  In this example, all <p> elements that are after a <h1> element in the same parent element will be selected, regardless of the number of elements between them.
 
 ```html
@@ -215,12 +233,13 @@ Here are some examples of combining selectors:
     <p>This is one more paragraph </p>
 </div>
 ```
- In this example, the first and second <p> elements will be selected because they are after the <h1> element, but not the last one.
+ 
+In this example, the first and second <p> elements will be selected because they are after the <h1> element, but not the last one.
 
 It's important to note that the General Sibling Selector is less specific than the Child Selector (>) and Adjacent Sibling Selector (+), which means that it has lower precedence over other selectors.
 
+___
 
- 
 ___
 
 > what is the output of code ?
