@@ -45,7 +45,8 @@ Overall, semantic markup is an important technique for building accessible, main
 ___
 how does browser understand javascirpt ?
 - https://www.youtube.com/watch?v=2WJL19wDH68&list=PL_VYAa9CRontGgFvg1dSiTw1NlLa3CISy&index=12&ab_channel=AkshaySaini
-  When a browser loads a web page, it begins by parsing the HTML and creating a Document Object Model (DOM), which is a tree-like representation of the HTML elements and their relationships. Once the HTML has been parsed, the browser will then move on to parsing any JavaScript code that is present on the page.
+
+When a browser loads a web page, it begins by parsing the HTML and creating a Document Object Model (DOM), which is a tree-like representation of the HTML elements and their relationships. Once the HTML has been parsed, the browser will then move on to parsing any JavaScript code that is present on the page.
 
 The browser has a built-in JavaScript engine that is responsible for understanding and executing the JavaScript code. The most common JavaScript engines are V8 (used by Chrome and Edge), SpiderMonkey (used by Firefox), and JavaScriptCore (used by Safari).
 
