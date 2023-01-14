@@ -26,7 +26,7 @@ It's important to note that the request life cycle is not limited to web applica
 ___
 
 what are symentic elements? and how they are useful?
-- Semantic markup is the practice of using HTML tags in a way that describes the meaning of the content, rather than its presentation. This is done by using appropriate HTML tags such as <header>, <nav>, <article>, <section>, <aside> and <footer> to indicate the different types of content on a web page, rather than using tags such as <div> and <span> that do not indicate the meaning of the content.
+- Semantic markup is the practice of using HTML tags in a way that describes the meaning of the content, rather than its presentation. This is done by using appropriate HTML tags such as `<header>`, `<nav>`, `<article>`, `<section>`, `<aside>` and `<footer>` to indicate the different types of content on a web page, rather than using tags such as <div> and <span> that do not indicate the meaning of the content.
 
 Here are some ways semantic markup can be useful:
 
