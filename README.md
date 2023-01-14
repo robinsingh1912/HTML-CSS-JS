@@ -1,10 +1,10 @@
 # HTML-CSS-JS
 
 ___
-what is doctype?
+> what is doctype?
 - doctype 
 ___
-what do you mean by request life cycle ?
+> what do you mean by request life cycle ?
 - The request life cycle, also known as the request-response cycle, refers to the process that occurs between the time a client makes a request to a server and the time the server sends back a response. It typically includes the following steps:
 
 **DNS Lookup:** The client's computer looks up the IP address of the server using the domain name of the website.
@@ -25,7 +25,7 @@ It's important to note that the request life cycle is not limited to web applica
 
 ___
 
-what are symentic elements? and how they are useful?
+> what are symentic elements? and how they are useful?
 - Semantic markup is the practice of using HTML tags in a way that describes the meaning of the content, rather than its presentation. This is done by using appropriate HTML tags such as `<header>`, `<nav>`, `<article>`, `<section>`, `<aside>` and `<footer>` to indicate the different types of content on a web page, rather than using tags such as <div> and <span> that do not indicate the meaning of the content.
 
 Here are some ways semantic markup can be useful:
@@ -43,7 +43,7 @@ Reusability:** Semantic markup allows for easy reusability of code. By providing
 Overall, semantic markup is an important technique for building accessible, maintainable, and search engine friendly web pages.
 
 ___
-how does browser understand javascirpt ?
+> how does browser understand javascirpt ?
 - https://www.youtube.com/watch?v=2WJL19wDH68&list=PL_VYAa9CRontGgFvg1dSiTw1NlLa3CISy&index=12&ab_channel=AkshaySaini
 
 When a browser loads a web page, it begins by parsing the HTML and creating a Document Object Model (DOM), which is a tree-like representation of the HTML elements and their relationships. Once the HTML has been parsed, the browser will then move on to parsing any JavaScript code that is present on the page.
@@ -60,7 +60,7 @@ Overall, the browser's JavaScript engine plays a crucial role in interpreting an
   
 ___
   
-what is prefetch, preload and preconnect in html?
+> what is prefetch, preload and preconnect in html?
   
 `preconnect`, `preload` and `prefetch` are all resource hints that can be used to improve the loading performance of a web page by telling the browser to fetch resources in advance.
 
@@ -78,7 +78,7 @@ Also, It's important to consider the user's network conditions, and device capab
   
 ___
 
-what is the output of code ?
+> what is the output of code ?
 ```
 let a = true;
 
@@ -94,7 +94,7 @@ while (a) {
 
 ___
 
-what is the output of code :
+> what is the output of code :
 ```
 [1, 2, 3, 4, 5].forEach((item) => {
   console.log(item);
