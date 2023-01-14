@@ -3,6 +3,29 @@
 what is doctype?
 -
 
+what do you mean by request life cycle ?
+- The request life cycle, also known as the request-response cycle, refers to the process that occurs between the time a client makes a request to a server and the time the server sends back a response. It typically includes the following steps:
+
+**DNS Lookup:** The client's computer looks up the IP address of the server using the domain name of the website.
+
+**TCP/IP Connection:** The client establishes a connection with the server using the Transmission Control Protocol (TCP) or the User Datagram Protocol (UDP).
+
+**Request:** The client sends a request to the server, which includes information such as the URL, the HTTP method (e.g., GET, POST), and any data to be sent to the server.
+
+**Server Processing:** The server receives the request and processes it. This may involve routing the request to the appropriate controller, executing any necessary business logic, and querying the database.
+
+**Response:** The server sends a response back to the client, which may include the requested data, an error message, or a redirect.
+
+**TCP/IP Close:** The client and server close the connection.
+
+This process usually happens in milliseconds, and the client and server can handle multiple requests and responses simultaneously. The request life cycle is a fundamental concept in web development, and understanding it is essential for building and maintaining web applications.
+
+It's important to note that the request life cycle is not limited to web application but also applies to other types of applications that involve client-server communication.
+
+
+
+
+
 what are symentic elements?
 - Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
 
