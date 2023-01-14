@@ -27,6 +27,7 @@ It's important to note that the request life cycle is not limited to web applica
 ___
 
 > what are symentic elements? and how they are useful?
+
 Semantic markup is the practice of using HTML tags in a way that describes the meaning of the content, rather than its presentation. This is done by using appropriate HTML tags such as `<header>`, `<nav>`, `<article>`, `<section>`, `<aside>` and `<footer>` to indicate the different types of content on a web page, rather than using tags such as <div> and <span> that do not indicate the meaning of the content.
 
 Here are some ways semantic markup can be useful:
@@ -45,6 +46,7 @@ Overall, semantic markup is an important technique for building accessible, main
 
 ___
 > how does browser understand javascirpt ?
+ 
 https://www.youtube.com/watch?v=2WJL19wDH68&list=PL_VYAa9CRontGgFvg1dSiTw1NlLa3CISy&index=12&ab_channel=AkshaySaini
 
 When a browser loads a web page, it begins by parsing the HTML and creating a Document Object Model (DOM), which is a tree-like representation of the HTML elements and their relationships. Once the HTML has been parsed, the browser will then move on to parsing any JavaScript code that is present on the page.
