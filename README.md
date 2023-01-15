@@ -83,8 +83,16 @@ ___
 
 ___
 
-> what are web workers ?
+> do you optimize the performance of a web page?
 
+Optimizing the performance of a web page can be done through a variety of techniques, including:
+ - Minimizing the number of HTTP requests by combining and minifying files
+ - Using a Content Delivery Network (CDN) to serve static assets
+ - Using browser caching to store assets locally
+ - Optimizing images and other media by compressing them and using the correct file format
+ - Using lazy-loading to only load content as it is needed
+ - Removing any unnecessary code or plugins
+ - Optimizing JavaScript and CSS code for better load times
 
 ___
 
