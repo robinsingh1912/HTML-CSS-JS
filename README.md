@@ -21,6 +21,7 @@ HTML5 is the fifth version of HTML, the standard markup language used to create 
 - multimedia support 
 - offline storage and
 - improved form controls. 
+
 It also deprecates some older features and aims to improve the overall structure and accessibility of web pages.
 
 ___
