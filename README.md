@@ -259,7 +259,7 @@ Here are some examples of combining selectors:
 }
 ```
  
- - **Child Selector:** This is used to select elements that are direct children of a specific element. For example, the following CSS will select all <li> elements that are direct children of a <ul> element:
+- **Child Selector:** This is used to select elements that are direct children of a specific element. For example, the following CSS will select all <li> elements that are direct children of a <ul> element:
  
  ```css
  ul > li {
@@ -267,7 +267,7 @@ Here are some examples of combining selectors:
 }
 ```
  
- - **Adjacent Sibling Selector:** This is used to select elements that are directly after a specific element. For example, the following CSS will select all <p> elements that are directly after a <h1> element:
+- **Adjacent Sibling Selector:** This is used to select elements that are directly after a specific element. For example, the following CSS will select all <p> elements that are directly after a <h1> element:
  
  ```css
  h1 + p {
@@ -275,7 +275,7 @@ Here are some examples of combining selectors:
 }
 ```
  
- - **General Sibling Selector:** This is used to select elements that are after a specific element (not necessarily directly). For example, the following CSS will select all <p> elements that are after a <h1> element:
+- **General Sibling Selector:** This is used to select elements that are after a specific element (not necessarily directly). For example, the following CSS will select all <p> elements that are after a <h1> element:
  
 ```css
  h1 ~ p {
