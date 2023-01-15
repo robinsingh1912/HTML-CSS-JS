@@ -26,7 +26,29 @@ It also deprecates some older features and aims to improve the overall structure
 
 ___
 
-> New form elements in HTML5?
+> what do you mean by web accessibility ?
+
+Web accessibility refers to the practice of designing and developing web content and applications that can be used by people with a wide range of abilities and disabilities. This includes individuals who may have visual, auditory, motor, cognitive or neurological impairments, as well as those who use assistive technologies such as screen readers, screen magnifiers, and alternative input devices.
+
+Web accessibility is important because it ensures that everyone can access and use the web, regardless of their abilities. This includes people with disabilities, older adults, and users with low literacy or low-bandwidth connections.
+
+To make a website accessible, developers should follow web accessibility guidelines such as the Web Content Accessibility Guidelines (WCAG) which are developed by the World Wide Web Consortium (W3C). These guidelines provide a set of best practices and standards for web accessibility, including guidelines for text, images, multimedia, and interactive elements.
+
+Examples of web accessibility features include:
+
+- Text alternatives for images, videos, and audio
+- Keyboard-friendly navigation and controls
+- High contrast colors for users with visual impairments
+- Closed captioning for videos
+- Simple and consistent layout, with clear headings and labels
+- Clear and descriptive links
+
+Web accessibility is an ongoing process, and it requires the involvement of developers, designers, content authors, and other stakeholders to ensure that accessibility is considered throughout the development process.
+
+
+
+
+
 
 
 ___
