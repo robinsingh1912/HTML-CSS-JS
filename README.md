@@ -1,8 +1,71 @@
 # HTML-CSS-JS
 
 ___
-> what is doctype?
-- doctype 
+> what is `<!DOCTYPE html>`?
+doctype 
+
+___
+> Difference between html tag and element ?
+
+___
+
+> should we have more than one `<h1>` tag or not ?
+**NO**, 
+___
+
+> what are the new thing introduced in html5 ?
+
+___
+
+> New form elements in HTML5?
+
+
+___
+
+> difference between `<svg>` & `<canvas>`?
+
+___
+
+> Difference between `class` and `id` attribute?
+
+
+___
+
+> How DOM is rendered in browser?
+
+___
+
+> Difference between async and differ attrubute in `<script>`
+
+___
+
+> what is responsive web design ?
+
+___
+
+> what is use of meta tags ?
+
+___
+
+> Difference between `attribute` and `property`?
+
+___
+
+> how iframe works?
+
+___
+
+> geoLoaction API ?
+
+___
+
+> what are web workers ?
+
+
+___
+
+> 
+
 ___
 > what do you mean by request life cycle ?
 
@@ -240,9 +303,12 @@ It's important to note that the General Sibling Selector is less specific than t
 
 ___
 
+> 
+ 
 ___
 
 > what is the output of code ?
+ 
 ```js
 let a = true;
 
@@ -254,11 +320,13 @@ while (a) {
   console.log("Hello World");
 }
 ```
+ 
 - The code will output "Hello World" indefinitely, as the while loop will continue to run until the value of `a` is set to false. However, the value of `a` will not be set to false until 2000 milliseconds (2 seconds) have passed due to the setTimeout function, so the loop will continue to run and print "Hello World" indefinitely.
 
 ___
 
 > what is the output of code :
+ 
 ```js
 [1, 2, 3, 4, 5].forEach((item) => {
   console.log(item);
@@ -267,6 +335,7 @@ ___
   }
 });
 ```
+
 - The forEach method is used to iterate over each element of the array and call the provided function for each element. The function passed to forEach method has a parameter "item" which is the current element of the array. In this case, it will iterate over the array [1,2,3,4,5] and calls the function for each element. At each iteration, the current element is printed and then it checks if the current element is 2 and if it is true, it returns. But the `return` statement only exit the function, it doesn't stop the iteration. So it will print all the element of the array including 2.
 
 ___
