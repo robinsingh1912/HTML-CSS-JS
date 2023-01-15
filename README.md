@@ -327,8 +327,24 @@ It's important to note that the General Sibling Selector is less specific than t
 
 ___
 
-> 
- 
+> what is DRY Principle in javascript?
+
+The DRY principle stands for "Don't Repeat Yourself" and it is a principle in software development that aims to minimize the amount of code duplication in a program. The idea behind DRY is that every piece of knowledge in the system should have a single, unambiguous representation.
+
+In JavaScript, the DRY principle can be applied by using functions, variables, and objects to avoid repeating the same code multiple times. This can make the code more readable, maintainable, and less prone to errors.
+
+Here are a few examples of how the DRY principle can be applied in JavaScript:
+
+ 1. **Functions:** Instead of repeating the same code multiple times, use a function that can be called whenever that code is needed.
+
+ 2. **Variables:** Instead of hard-coding values in multiple places, use variables to store the values and reference them throughout the code.
+
+ 3. **Objects:** Instead of repeating similar data structures, create an object that contains the data and methods for manipulating it.
+
+ 4. **Reusable modules:** Instead of writing similar functionality multiple times, modularize the code and reuse the modules.
+
+Applying the DRY principle in JavaScript can help to make the code more concise, more organized, and more maintainable.
+
 ___
 
 > what is the output of code ?
