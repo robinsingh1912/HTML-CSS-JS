@@ -1,8 +1,8 @@
 # HTML-CSS-JS
 
 ___
-> what is `<!DOCTYPE html>`?
-doctype 
+> What is the purpose of the <!DOCTYPE> declaration in an HTML document?
+The `<!DOCTYPE>` declaration is used to inform the browser which version of HTML or XHTML is being used in the document. It tells the browser how to interpret the elements and attributes in the document, and allows the browser to apply the correct rendering rules.
 
 ___
 > Difference between html tag and element ?
