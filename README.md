@@ -347,6 +347,43 @@ Applying the DRY principle in JavaScript can help to make the code more concise,
 
 ___
 
+ > what are web workers ?
+
+ Web Workers are a JavaScript API that allows you to run a script operation in a background thread separate from the main execution thread of a web page. This allows you to run expensive or time-consuming operations without freezing the user interface or blocking other scripts from running.
+
+Web Workers communicate with the main thread by passing messages back and forth. The main thread can start a worker, pass it data, and receive results through the `postMessage()` method. The worker can also send data back to the main thread through the `postMessage()` method.
+
+Web workers are useful for running time-consuming tasks such as image processing, complex calculations, or data manipulation without blocking the user interface. They can also be used to run background tasks, such as updating a database or sending data to a server, while the user continues to interact with the web page.
+
+Web workers are supported by most modern browsers, but there are some limitations to their use, such as the inability to access the DOM and limitations on the types of API's that can be used within a worker.
+
+Here is an example of how to create and use a web worker:
+ ```js
+ // Create a worker
+const worker = new Worker('worker.js');
+
+// Send data to the worker
+worker.postMessage({data: 'Hello World'});
+
+// Receive message from worker
+worker.onmessage = function(e) {
+  console.log(e.data);
+}
+ ```
+ In worker.js:
+
+```js
+ // Receive data from the main thread
+onmessage = function(e) {
+  console.log(e.data);
+  // Send message back to the main thread
+  postMessage('Worker: ' + e.data);
+}
+```
+ 
+ 
+___
+ 
 > what is the output of code ?
  
 ```js
