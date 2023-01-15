@@ -49,6 +49,26 @@ ___
 
 > Difference between `attribute` and `property`?
 
+In HTML, an attribute is used to provide additional information about an element, while a property is used to define the current state or value of an element.
+
+An attribute is set on an HTML element using the HTML syntax, for example:
+```html
+<input type="text" value="Initial value">
+```
+A property, on the other hand, is a property of a JavaScript object that represents the element, and it can be accessed and modified using JavaScript. For example:
+```js
+let input = document.querySelector("input");
+console.log(input.value); // Outputs: "Initial value"
+input.value = "New value";
+```
+It's important to know that when an element is rendered by the browser, the values of the attributes are copied to the properties, so the attribute's initial value will be the same as the property's initial value. But after that, if you change the property's value, the attribute's value will not change.
+
+For example, in the above example, the value of the value attribute and the value property will be the same initially, but if you change the value property using JavaScript, the value attribute will remain unchanged.
+
+In summary, attributes provide metadata about an element and are defined in the HTML, while properties provide the current state of an element and can be accessed and modified using JavaScript.
+
+
+
 ___
 
 > how iframe works?
