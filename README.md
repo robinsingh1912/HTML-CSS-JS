@@ -16,6 +16,13 @@ ___
 
 > what are the new thing introduced in html5 ?
 
+HTML5 is the fifth version of HTML, the standard markup language used to create web pages. It introduces new features and improvements such as 
+- semantic elements 
+- multimedia support 
+- offline storage and
+- improved form controls. 
+It also deprecates some older features and aims to improve the overall structure and accessibility of web pages.
+
 ___
 
 > New form elements in HTML5?
