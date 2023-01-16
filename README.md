@@ -71,6 +71,24 @@ ___
 
 > How DOM is rendered in browser?
 
+When a web page is loaded in a browser, the browser parses the HTML and CSS, and creates a Document Object Model (DOM) of the page. The DOM is a tree-like representation of the elements and their relationships in the HTML document.
+
+The process of rendering a web page in the browser can be broken down into the following steps:
+
+1. The browser receives the HTML and CSS from the server, and starts parsing the HTML to create the DOM. The browser reads the HTML tags and creates corresponding elements, such as div, span, and p, in the DOM.
+
+2. As the browser parses the HTML, it also starts building the CSS Object Model (CSSOM) which is a representation of the styles applied to the elements in the DOM.
+
+3. Once both the DOM and the CSSOM are created, the browser combines them to create the Render Tree. The Render Tree is a tree-like representation of the elements in the DOM that are visible and the styles that are applied to them.
+
+4. Then, the browser starts layout process where it calculates the layout of each element in the Render Tree, such as the position, size, and visibility of each element. This step is also known as the "reflow" or "layout" phase.
+
+5. Finally, the browser paints the elements in the Render Tree to the screen. This step is known as the "paint" phase.
+
+The rendering process is an ongoing process, and the browser can re-render the page if the DOM or the styles change. The browser uses the browser's layout engine to calculate the layout of the elements on the page, and the process can be optimized using techniques such as lazy loading, using requestAnimationFrame, and avoiding unnecessary styles and elements.
+
+Overall, the DOM, CSSOM and Render Tree work together to create the final visual representation of a web page that you see in the browser.
+
 ___
 
 > Difference between async and differ attrubute in `<script>`
