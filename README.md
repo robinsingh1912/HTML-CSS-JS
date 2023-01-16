@@ -45,7 +45,19 @@ Examples of web accessibility features include:
 
 Web accessibility is an ongoing process, and it requires the involvement of developers, designers, content authors, and other stakeholders to ensure that accessibility is considered throughout the development process.
 
+___
 
+> difference between `display: inline-block` and `display: block` in css
+
+`display: inline-block` and `display: block` are two different values for the display property in CSS that determine how an element is displayed on a web page.
+
+`display: block:` When an element is set to display: block, **it takes up the full width of its parent container and creates a new block formatting context.** A block-level element will start on a new line and push any subsequent elements down. Block-level elements have a default width of 100% of their parent container and a default height that is determined by their content. Examples of block-level elements are div, h1, p, section.
+
+`display: inline-block:` When an element is set to display: inline-block, it behaves like both an inline and a block-level element. **It takes up only as much width as necessary and does not create a new block formatting context.** An inline-block element will not start on a new line and will be placed next to any subsequent elements. Examples of inline-block elements are span, img, input.
+
+The main difference between display: block and display: inline-block is that block elements take up the full width of their parent container and create a new block formatting context, while inline-block elements only take up as much width as necessary and do not create a new block formatting context.
+
+It's important to keep in mind that display: inline-block has some quirks, such as the whitespace between inline-block elements creating unwanted gaps. You can use font-size:0 on the parent element to fix this problem, or you can use float property instead of display: inline-block which will avoid this problem.
 
 
 
