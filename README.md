@@ -489,3 +489,86 @@ ___
 
 ___
 
+//What will be the expected output
+(function () {
+  // var a = b = 3;
+})();
+
+console.log("a defined? " + (typeof a !== "undefined"));
+false;
+console.log("b defined? " + (typeof b !== "undefined"));
+true;
+//What will be the output of the below consoles
+console.log(0.1 + 0.2 == 0.3); //false 0.30000000004
+console.log("A" - "B" + "2"); //NaN2
+console.log(false == "0"); //true
+console.log(false === "0"); //false
+console.log(1 < 2 < 3); //true
+console.log(typeof typeof 1); //string
+
+(function () {
+  console.log(1);
+  setTimeout(function () {
+    console.log(2);
+  }, 1000);
+  console.log(Promise.resolve(5));
+  setTimeout(function () {
+    console.log(3);
+  }, 0);
+  setTimeout(function () {
+    console.log(6);
+  }, 2000);
+  console.log(4);
+})();
+
+//1 4 5 3 2 6
+
+// Write the logic to check if the given string is a palindrome or not
+let str = "Level";
+
+function isPalindrome(str) {
+  const newStr = str.split("").reverse().join("");
+}
+
+console.log(isPalindrome(str));
+
+//Write a mulitply method which will work properly when invoked using either syntax below.
+function multiply(a, b) {
+  if (b) {
+    return a * b;
+  } else {
+    return (b) => a * b;
+  }
+}
+
+console.log(multiply(2, 3));
+console.log(multiply(2)(3));
+
+//What's the expected output of the both for-loops
+
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+// 333
+
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+// 0 1 2
+
+// for (const i = 0; i < 3; i++) {
+//   setTimeout(() => console.log(i), 1);
+// }
+
+// error 0
+
+//Write the logic to return true/false if they are anagram of one another.
+
+var firstWord = "Study";
+var secondWord = "Dusty";
+isAnagram(firstWord, secondWord);
+function isAnagram() {
+  // write the code
+}
